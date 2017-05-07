@@ -1,5 +1,5 @@
 package interFace;
 
-public class Pname {
-
+abstract public class Pname {
+ abstract void name();
 }
