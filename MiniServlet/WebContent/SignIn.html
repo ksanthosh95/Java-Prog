@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sign-Up @ E-Com</title>
+<link rel="stylesheet" type="text/css" href="sheet.css">
+</head>
+<body>
+
+<h2>Signup Form</h2>
+
+<form action="Servlet" method="post" style="border:1px solid #ccc" >
+  <div class="container">
+  <table>
+    <tr><td><label><b>First Name</b></label>
+    <td><input type="text" placeholder="Enter First Name" name="fname" required><br>
+    
+    <tr><td><label><b>Last Name</b></label>
+    <td><input type="text" placeholder="Enter last Name" name="lname" required><br>
+    
+  
+    <tr><td><label><b>Email</b></label>
+    <td><input type="text" placeholder="Enter Email" name="email" required><br>
+
+    <tr><td><label><b>Password</b></label>
+    <td><input type="password" placeholder="Enter Password" name="psw" required><br>
+
+    <tr><td><label><b>Repeat Password</b></label>
+    <td><input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    <input type="checkbox" checked="checked"> Remember me
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn" value="ecoms">Sign Up</button>
+    </table>
+    </div>
+  </div>
+</form>
+
+
+</body>
+</html>
